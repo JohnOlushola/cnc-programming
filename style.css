@@ -1,0 +1,82 @@
+body{
+    padding: 50px;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+
+.nav{
+    display: inline-flex;
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+.nav-brand{
+    margin-right: auto;
+}
+
+.nav-link{
+    text-align: right;
+}
+
+.nav-link-list{
+    /* margin-top: 40px; */
+}
+
+li{
+    display: inline-block !important;
+    padding-left: 20px;
+    padding-right: 0;
+    margin-left: 80px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.text{
+    padding-top: 70px;
+    padding-left: 20px;
+    width: 40%;
+    float: left;
+}
+
+.main-text{
+    font-weight: 400;
+}
+
+.sub-text{
+    /* font-weight: 100; */
+}
+
+.btn{
+    margin-right: 10px !important;
+}
+
+.btn-primary{
+    padding: 10px;
+    border-radius: 35px;
+    width: 200px;
+    height: 50px;
+    background: rgb(63, 111, 150);
+    color: white;
+    margin: 5px;
+    font-size: 16px;
+    border: 1px solid rgb(63, 111, 150);
+}
+
+.btn-secondary{
+    padding: 10px;
+    border-radius: 35px;
+    width: 200px;
+    height: 50px;
+    background: rgb(117, 168, 202);
+    color: white;
+    margin: 5px;
+    font-size: 16px;
+    border: 1px solid rgb(117, 168, 202);
+}
+
+.img{
+    float: right;
+}
